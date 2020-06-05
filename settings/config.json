@@ -1,0 +1,14 @@
+{
+  "token": "discord bot token",
+  "prefix": "h!",
+  "hypixel": [
+    "hypixelAPI Keys"
+  ],
+  "trelloApiKey": "trelloApiKey",
+  "trelloApiSecret": "trelloApiSecret",
+  "trelloToken": "trelloToken",
+  "trelloTokenSecret": "trelloTokenSecret",
+
+  "dblpy": "topgg token",
+  "database": "postgresql://user:password@host:port/database"
+}
