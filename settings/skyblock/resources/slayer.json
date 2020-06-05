@@ -1,0 +1,18 @@
+{
+  "zombie": {
+    "level_1": { "Health": 2 },
+    "level_2": { "Health": 2 },
+    "level_3": { "Health": 3 },
+    "level_4": { "Health": 3 }
+  },
+  "spider": {
+    "level_1": { "Crit Damage": 1 },
+    "level_2": { "Crit Damage": 1 },
+    "level_3": { "Crit Damage": 1 }
+  },
+  "wolf": {
+    "level_1": { "Speed": 1 },
+    "level_2": { "Health": 2 },
+    "level_3": { "Speed": 1 }
+  }
+}

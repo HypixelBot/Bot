@@ -1,0 +1,57 @@
+{
+  "bot.py": {
+    "footer": "Hypixel Bot | Made by Ice#5518",
+    "errors": {
+      "Forbidden": "I do not have permission to execute this action",
+      "NotFound": "This entity does not exist: {entity}",
+      "HTTPException": "Somehow, an unexpected error occurred. Try again later?",
+      "NoPrivateMessage": "This command cannot be used in private messages.",
+      "BadArgument2": "🔍 | **{author}**, the user could not be found.",
+      "CheckFailure2": "In order to use `{command}` command you must upvote.\n<https://discordbots.org/bot/hypixel/vote>",
+      "CommandOnCooldown": "You can use this command again in {cooldown} seconds.",
+      "Error": "Oops, something went wrong. The error has been sent to my owner."
+    }
+  },
+  "config.py": {
+    "permissions": {
+      "send_messages": "The bot doesn't have permissions to send messages in <#{channel}>",
+      "move_members": "Missing permissions to move members."
+    },
+    "Description": {
+      "move": "Moves users from channel to channel.\n\t- move [channel] [user]\n\t- move [channel] [channel with users]\n\t- move [channel] [user1] [user2]\n\n**Notice**: Remember to use their id and not name.",
+      "setup": "Easy way to setup custom features!\nTo setup anything you must have permissions to manage the server!",
+      "setupRoles": "Set's up hypixel rank's based roles.\nThis custom roles will be given to members that join according to their Hypixel Rank\n**If it's not possible to verify their minecraft username the role won't be given**"
+    },
+    "setup": {
+      "timeout": "You took too long to reply!",
+      "invalidResponse": "That option doesn't seem to be valid. Try again!\nUse `cancel` to exit.",
+      "setupRoles": {
+        "duplicated": "This server already has Hypixel rank's based roles.\nDo you want to delete them?",
+        "deleted": "The custom roles have been deleted!\nDo you want to run the setup again?",
+        "currently": "**The following ranks are being used**:\n\n{text}",
+
+        "welcomeTitle": "Welcome to the Hypixel rank setup!",
+        "welcomeDescription": "**1**. Search already made roles.\n**2**. Create new roles. ({rolestr}){permissions}",
+        "welcomeFooter": "Select the option you want.",
+
+        "searching": "<a:loading:393852367751086090> **Searching for roles!**",
+
+        "found": "**Found the following roles**:\n\n{roles}",
+        "foundFooter": "Do you want the roles to be this ones?",
+
+        "success": "Hypixel rank's based roles successfully set up!",
+        "permissionWarning": "{higher}/8 of those roles is higher than my top role, therefore I won't be able to give it to someone.\nIn order to be able to give the role I must have a higher role than those.",
+        "permissionError": "Oops, I do not have enough permissions for this one.\nYou can either create the roles manually and run the setup again or give me the \"Manage Roles\" permission.",
+        "update": "**Which role do you want to update?**\n\n{role}",
+        "updateFooter": "Choose one at a time.",
+        "replace": "Which role do you want to use as {r}",
+        "updated": "Using {role} as {r} role!",
+        "update2": "You can change another role. If you're done say `done`",
+        "findFail": "Couldn't find any role. Try again!\nUse `cancel` to exit.",
+        "create": "The following roles will be created:\n\n{rolestr}",
+        "created": "The following roles have been created:\n\n{roles}",
+        "cancel": "Setup canceled!"
+      }
+    }
+  }
+}
