@@ -1,0 +1,17 @@
+git+https://github.com/Rapptz/discord.py
+python-dateutil
+beautifulsoup4
+parsedatetime
+ratelimiter
+dnspython
+grequests
+py-trello
+requests
+aiohttp
+asyncpg
+dblpy
+psutil
+click
+lxml
+bs4
+six
