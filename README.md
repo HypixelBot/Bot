@@ -9,6 +9,8 @@ Made to display Hypixel stats.
 [![Server count](https://discordbots.org/api/widget/servers/333422871567400961.svg)](https://discordbots.org/bot/333422871567400961)
 [![Chat count](https://img.shields.io/discord/385954529557872640.svg)](https://discord.gg/GRPUTrS)
 
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X81S5KV)
+
 ## Invites
 
 * Click [here](https://discordapp.com/oauth2/authorize?client_id=333422871567400961&scope=bot&permissions=268561472) to invite Hypixel Bot to your server!
